@@ -1,7 +1,21 @@
-@"
+# ==========================================================
+# Dataset citra - 2,2 GB, tidak diunggah ke GitHub
+# ==========================================================
+src/AJLCD-2025/
+
+# Data mentah & hasil olahan
 data/raw/
 data/processed/
+
+# Virtualenv & cache Python
 .venv/
+venv/
 __pycache__/
 *.pyc
-"@ | Set-Content .gitignore
+
+# Bobot model hasil latih
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
