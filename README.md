@@ -2,7 +2,9 @@
 
 Tugas Besar Pengolahan Citra Digital (IF25-40410), Program Studi Teknik Informatika, Institut Teknologi Sumatera, 2026.
 
-Topik 7: Deteksi kondisi daun tanaman hias atau sayuran.
+- **Kelompok:** Hayatitut Citra Vision (Kelas RB)
+- **Topik:** 7 — Deteksi kondisi daun tanaman hias atau sayuran
+- **Proposal:** [Google Docs](https://docs.google.com/document/d/1Xjy4mrjELiYlMW_zxPInEZwVWHCmU7W0a5cAKL31-zI/edit?usp=sharing) | [PDF (`docs/`)](docs/Proposal%20Tubes%20PCD%202026_2027%20-%20Hayatitut%20Citra%20Vision.pdf)
 
 ## Deskripsi
 
@@ -96,17 +98,30 @@ Selain data uji dataset, sistem diuji pada foto daun melati yang diambil sendiri
 - Aplikasi demo hanya ditujukan untuk daun melati.
 - Kelas menguning dipetakan dari kelas *Chlorosis* pada dataset; kriteria pelabelannya tidak dijelaskan oleh pembuat dataset.
 
+## Progress Pengerjaan
+
+| Minggu | Tanggal | Kegiatan | Penanggung Jawab |
+|---|---|---|---|
+| 11 | 9–13 Nov 2026 | Penyusunan proposal, pengumpulan dan pelabelan data, baseline awal | Project Lead (proposal); Data Engineer & Annotator (unduh dan periksa data, pembagian data); Computer Vision Engineer (baseline awal) |
+| 12 | 16–20 Nov 2026 | Implementasi tahapan pengolahan citra | Computer Vision Engineer (implementasi tahap 1 sampai 5); Data Engineer & Annotator (mask 30 citra); Application Engineer (kerangka aplikasi demo) |
+| 13 | 23–27 Nov 2026 | Evaluasi dan ablasi | Evaluation & QA Analyst (evaluasi, ablasi, uji ketahanan); Computer Vision Engineer (penyetelan parameter) |
+| 14 | 30 Nov–4 Des 2026 | Aplikasi demo, penyempurnaan, penyusunan laporan | Application Engineer (aplikasi dan video demo); Project Lead (laporan); seluruh anggota (penulisan bagian masing-masing) |
+| 15 | 7–11 Des 2026 | Presentasi dan demo (sesuai jadwal) | Seluruh anggota |
+| 16 | 14–18 Des 2026 | Presentasi dan demo (sesuai jadwal) | Seluruh anggota |
+
 ## Tim
+
+**Kelompok:** Hayatitut Citra Vision (Kelas RB)
 
 | No | NIM | Nama | Peran |
 |---|---|---|---|
-| 1 | | | Project Lead |
-| 2 | | | Data Engineer & Annotator |
-| 3 | | | Computer Vision Engineer |
-| 4 | | | Evaluation & QA Analyst |
-| 5 | | | Application Engineer |
+| 1 | 123140033 | Sigit Kurnia Hartawan | Project Lead |
+| 2 | 123140031 | Muhammad Romadhon S | Data Engineer & Annotator |
+| 3 | 123140003 | Muhammad Fadhilah Akbar | Computer Vision Engineer |
+| 4 | 123140068 | Giovan Lado | Evaluation & QA Analyst |
+| 5 | 123140072 | Bayu Brigas Novaldi | Application Engineer |
 
-Dosen pengampu: Andika Setiawan, S.Kom., M.Cs. (Kelas RA) / Mohamad Idris, S.Si., M.Sc. (Kelas RB)
+Dosen pengampu: Mohamad Idris, S.Si., M.Sc. (Kelas RB)
 
 ## Sitasi dan Lisensi
 
